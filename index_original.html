@@ -74,13 +74,14 @@ body{
 .mai-text .ai{color:#fff;}
 .mai-text .gov{color:#00b2e3;}
 .mail-btn{
-  width:34px;height:34px;border-radius:50%;background:transparent;
+  width:34px;height:34px;border-radius:0;background:transparent !important;
   display:flex;align-items:center;justify-content:center;
   border:none;cursor:pointer;position:relative;flex-shrink:0;
+  box-shadow:none !important;outline:none !important;
 }
-.mail-btn svg{width:20px;height:20px;color:#0a1c4a;}
+.mail-btn svg{width:20px;height:20px;color:#fff !important;}
 .mail-btn::after{
-  content:&quot;&quot;;position:absolute;top:2px;right:3px;
+  content:"";position:absolute;top:2px;right:3px;
   width:8px;height:8px;border-radius:50%;background:#7ed957;
   border:1.5px solid #0a1c4a;
 }
