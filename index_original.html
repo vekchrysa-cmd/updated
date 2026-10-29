@@ -63,6 +63,8 @@ body{
 }
 .brand .dot{color:#fff;}
 .brand .gr{color:#00b2e3;}
+  .brand { position: relative; z-index: 2; }
+.topbar { position: relative; z-index: 2; background: #0a1c4a; }
 .mai-wrap{display:flex;align-items:center;gap:4px;}
 .mai-wrap .bot{
   width:34px;height:34px;
@@ -319,6 +321,7 @@ body{
 &lt;body&gt;
 
   &lt;div class=&quot;topbar&quot;&gt;
+  &lt;div style=&quot;position:absolute;left:40px;top:8px;width:90px;height:40px;background:#0a1c4a;z-index:1;border-radius:8px;&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;tb-left&quot;&gt;
       &lt;button class=&quot;menu-btn&quot; aria-label=&quot;menu&quot; onclick=&quot;parent.parent.postMessage({nav:&amp;apos;menu&amp;apos;},&amp;apos;*&amp;apos;)&quot;&gt;
         &lt;svg viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2.2&quot; stroke-linecap=&quot;round&quot;&gt;&lt;path d=&quot;M3 7h18M3 12h18M3 17h18&quot;/&gt;&lt;/svg&gt;
