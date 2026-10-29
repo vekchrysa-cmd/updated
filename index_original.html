@@ -49,6 +49,12 @@ body{
   display:flex;align-items:center;
   padding:calc(env(safe-area-inset-top,0px) + 14px) 14px 12px;
   gap:6px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  background:#0a1c4a;
 }
 .tb-left{display:flex;align-items:center;gap:8px;flex-shrink:0;}
 .tb-right{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto;}
@@ -99,7 +105,7 @@ body{
 /* CARD CAROUSEL */
 .carousel-wrap{
   position:relative;
-  margin-top:10px;
+  margin-top:80px;
 }
 .carousel{
   display:flex;
